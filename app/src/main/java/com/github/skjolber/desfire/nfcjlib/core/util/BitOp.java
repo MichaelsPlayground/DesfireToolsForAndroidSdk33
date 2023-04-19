@@ -1,4 +1,4 @@
-package nfcjlib.core.util;
+package com.github.skjolber.desfire.nfcjlib.core.util;
 
 /**
  * Work in progress: manipulate integers...

@@ -54,7 +54,7 @@ public class CMAC {
 			blockSize = 16;
 			rb = Rb128;
 			byte[] zeros16 = new byte[blockSize];
-			nistL = nfcjlib.core.util.AES.encrypt(zeros16, key, zeros16);
+			nistL = AES.encrypt(zeros16, key, zeros16);
 			break;
 		default:
 			assert false : type;
@@ -97,7 +97,7 @@ public class CMAC {
 			formattedMessage = TripleDES.encrypt(eIv, k, newBlock);
 			break;
 		case AES:
-			formattedMessage = nfcjlib.core.util.AES.encrypt(eIv, k, newBlock);
+			formattedMessage = AES.encrypt(eIv, k, newBlock);
 			break;
 		default:
 			assert false : type;

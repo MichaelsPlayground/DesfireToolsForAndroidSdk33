@@ -1,4 +1,4 @@
-package nfcjlib.core.util;
+package com.github.skjolber.desfire.nfcjlib.core.util;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

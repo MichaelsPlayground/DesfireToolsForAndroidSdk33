@@ -34,14 +34,13 @@ import com.github.skjolber.desfire.ev1.model.file.StandardDesfireFile;
 import com.github.skjolber.desfire.ev1.model.file.ValueDesfireFile;
 import com.github.skjolber.desfire.ev1.model.random.DefaultRandomSource;
 import com.github.skjolber.desfire.ev1.model.random.RandomSource;
-
-import nfcjlib.core.util.AES;
-import nfcjlib.core.util.BitOp;
-import nfcjlib.core.util.CMAC;
-import nfcjlib.core.util.CRC16;
-import nfcjlib.core.util.CRC32;
-import nfcjlib.core.util.CommandBuilder;
-import nfcjlib.core.util.TripleDES;
+import com.github.skjolber.desfire.nfcjlib.core.util.AES;
+import com.github.skjolber.desfire.nfcjlib.core.util.BitOp;
+import com.github.skjolber.desfire.nfcjlib.core.util.CMAC;
+import com.github.skjolber.desfire.nfcjlib.core.util.CRC16;
+import com.github.skjolber.desfire.nfcjlib.core.util.CRC32;
+import com.github.skjolber.desfire.nfcjlib.core.util.CommandBuilder;
+import com.github.skjolber.desfire.nfcjlib.core.util.TripleDES;
 
 /**
  * Enables a client to interact with a MIFARE DESFire EV1 smart card.
