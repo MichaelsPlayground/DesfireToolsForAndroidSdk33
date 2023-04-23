@@ -158,7 +158,7 @@ public class FileListFragment extends Fragment {
 			List<DesfireApplicationKey> keys = application.getKeys();
 			for(DesfireApplicationKey desfireApplicationKey : keys) {
 				DesfireKey key = desfireApplicationKey.getDesfireKey();
-				
+				// todo found something wired and red dotted
 				details.add(new ApplicationDetailApplicationKey(activity.getString(R.string.key, desfireApplicationKey.getIndex()), activity.getString(R.string.keyVersion, Integer.toHexString(key.getVersion())), desfireApplicationKey));
 			}
 

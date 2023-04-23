@@ -1,21 +1,19 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
         android:id="@+id/action_settings"
-        android:showAsAction="always"
         android:title="@string/keys"
         android:icon="@drawable/ic_menu_account_list"
-        />
+        app:showAsAction="always" />
      <item android:id="@+id/action_add"
-          android:showAsAction="always"
-          android:title="@string/keyAdd"
+         android:title="@string/keyAdd"
           android:icon="@android:drawable/ic_menu_add"
-           />
+         app:showAsAction="always" />
     <item android:id="@+id/action_save"
-          android:showAsAction="always"
-          android:title="@string/fileSave"
+        android:title="@string/fileSave"
           android:icon="@android:drawable/ic_menu_save"
-          />     
+        app:showAsAction="always" />
      
     
 </menu>
