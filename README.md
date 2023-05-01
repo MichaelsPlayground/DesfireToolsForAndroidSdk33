@@ -16,6 +16,9 @@ equals to "MifareDesfireKey.java" in the original repository but as there is ano
 I renamed the file from "MifareDesfireKey.java" to "MifareDesfireKey1.java" and changed all references in the code to the 
 new file name.
 
+Second note: I included the "libfreefare" and "model" libraries direct into my package so they are no included within 
+the build.gradle (app) file.
+
 The original app in Google PlayStore: https://play.google.com/store/apps/details?id=com.skjolberg.mifare.desfiretool&hl=no
 
 Features:
