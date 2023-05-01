@@ -1,6 +1,8 @@
 # desfire-tools-for-android
 A collection of tools for interaction with [MIFARE DESFire EV1] NFC tags using Android, mostly adapted from [libfreefare] and [nfcjlib].
 
+## Notes from MichaelsPlayground & AndroidCrypto
+
 Note: This repository was forked from the original source available at:
 
 https://github.com/skjolber/desfire-tools-for-android by Thomas Skjølberg (skjolber)
@@ -18,6 +20,8 @@ new file name.
 
 Second note: I included the "libfreefare" and "model" libraries direct into my package so they are no included within 
 the build.gradle (app) file.
+
+## The original description follows...
 
 The original app in Google PlayStore: https://play.google.com/store/apps/details?id=com.skjolberg.mifare.desfiretool&hl=no
 
