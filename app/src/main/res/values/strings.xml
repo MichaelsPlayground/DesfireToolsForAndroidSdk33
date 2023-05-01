@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NfcDesfireToolsForAndroid</string>
+    <string name="app_name">Mifare Desfire Tool SDK33</string>
 
     <string name="applicationList">Application list</string>
     <string name="applicationId">Application %s</string>
